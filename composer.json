@@ -1,0 +1,15 @@
+{
+    "name": "connectsb/localebundle",
+    "license": "MIT",
+    "type": "symfony-bundle",
+    "description": "Bundle for managing locales",
+    "autoload": {
+        "psr-0": {
+            "ConnectSB\\LocaleBundle": ""
+        }
+    },
+    "require": {
+        "symfony/symfony": ">=2.1"
+    },
+    "target-dir": "ConnectSB/LocaleBundle"
+}

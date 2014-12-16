@@ -1,0 +1,8 @@
+services:
+    connect_sb_locale_service:
+        class: ConnectSB\LocaleBundle\Service\LocaleService
+
+    connect_sb_locale_extension:
+        class: ConnectSB\LocaleBundle\Twig\LocaleExtension
+        tags:
+            -  { name: twig.extension }
