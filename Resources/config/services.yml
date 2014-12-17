@@ -6,3 +6,8 @@ services:
         class: ConnectSB\LocaleBundle\Twig\LocaleExtension
         tags:
             -  { name: twig.extension }
+
+    connect_sb_locale_form_type:
+        class: ConnectSB\LocaleBundle\Form\Type\CustomLocaleType
+        tags:
+            -  { name: form.type, alias: custom_locale}
